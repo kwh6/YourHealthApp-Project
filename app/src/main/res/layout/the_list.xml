@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:background="#E6E6E6"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grams_per"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:text="100g" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_list"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/lato_bold"
+            tools:text = "100g"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/calories_per"
+            android:textColor="#000000"
+            android:fontFamily="@font/lato_bold"
+            tools:text = "100g"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/serving"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:text="100g" />
+
+</LinearLayout>
