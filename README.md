@@ -23,4 +23,4 @@ After you click it you'll find a list of all the foods that you have eaten and a
 Of course your calories decreases with how many calories you have eaten according to your meals.
 Your meals that you have eaten in a day gets saved so whenever you close and open the app again it you'll find your info but before pressing next make sure that the gender and the activity level are the right ones and press next then you'll find all the meals that you have already added saved.
 
-There is another feature which is that when a day passes your foods list and your calories gets reseted automatically.
+There is another feature which is that when a day passes your food list and your calories gets reseted automatically.
